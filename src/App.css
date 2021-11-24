@@ -1,9 +1,21 @@
-body {
-	background: #141414;
-	color: #ffffff;
-}
 
-.movie-app > .row {
-	overflow-x: auto;
-	flex-wrap: nowrap;
+img{
+    width:20%;
+	
+}
+body {
+	background:url("https://images.cdn4.stockunlimited.net/preview1300/cinema-background-with-movie-objects_1823382.jpg");
+	background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;;
+}
+p{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+	padding: 30px;
+	color:whitesmoke	;
+	font-size: x-large;
+}
+.title{
+	font-size: xx-large;
+
 }

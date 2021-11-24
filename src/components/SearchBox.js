@@ -1,5 +1,5 @@
-
- function Searchbox({movies,setSearchtTerm}){
+import ReactStars from "react-rating-stars-component";
+ function Searchbox({movies,setSearchtTerm,setRating}){
  
 	const ratingChanged = (newRating) => {
 		setRating(newRating);
